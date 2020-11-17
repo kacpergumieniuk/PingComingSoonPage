@@ -5,24 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
 <body>
+<div class="container">
+  <div class="content">
+    <img src="images/logo.svg" alt="" id="logo">
+    <h1>We are launching <span>soon!</span></h1>
+    <p class="header-text">Subscribe and get notified</p>
+    <div class="form-content">
+      <input type="text" placeholder="Your email adress..." id="text-input"> 
+      <button onclick = SubmitEmail();>Notify Me</button>
+      <small id="error">Please probide a valid email adress</small>
+    </div>
+    
+    <img src="images/illustration-dashboard.png" alt="" id="illustration">
+    <div class="social">
+     <div class="icon-holder"> <i class="fab fa-facebook-f"></i></div>
+     <div class="icon-holder"><i class="fab fa-twitter"></i></div>
+      <div class="icon-holder"><i class="fab fa-instagram"></i></div>
+    </div>
+    <footer><p>&copy; Copyright Ping. All rights reserved.</p></footer>
 
-  We are launching soon!
+  </div>
+</div>
 
-  Subscribe and get notified
+
+  
+<script src="app.js"></script>
+</body>
+</html>
+
+
+<!--
+
+  
+
+  
 
   Notify Me
 
-  &copy; Copyright Ping. All rights reserved.
+  
 
   <footer>
     <p class="attribution">
@@ -30,5 +62,11 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
-</body>
-</html>
+
+
+     <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+-->

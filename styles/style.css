@@ -1,0 +1,218 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container .content {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .content #logo {
+  width: 65px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.container .content #illustration {
+  width: 490px;
+  margin: 35px 0;
+}
+
+.container .content h1 {
+  font-weight: 300;
+  color: #969696;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.container .content h1 span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+.container .content .header-text {
+  font-weight: 300;
+  color: #151f29;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.container .content .form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.container .content .form-content input {
+  width: 350px;
+  height: 40px;
+  border-radius: 28px;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 0 20px;
+  margin-right: 15px;
+}
+
+.container .content .form-content button {
+  width: 150px;
+  border-radius: 28px;
+  outline: none;
+  border: none;
+  background-color: #4f7df3;
+  color: white;
+  font-weight: 400;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.container .content .form-content button:hover {
+  background-color: #6d93f3;
+}
+
+.container .content .form-content small {
+  font-size: 11px;
+  color: #ff5263;
+  position: absolute;
+  font-weight: 300;
+  bottom: -40%;
+  right: 57%;
+  display: none;
+}
+
+.container .content .social {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container .content .social .icon-holder {
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #4f7df3;
+  cursor: pointer;
+}
+
+.container .content .social .icon-holder i {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+
+.container .content .social .icon-holder:hover {
+  background-color: #4f7df3;
+  color: white;
+}
+
+.container .content footer p {
+  font-size: 11px;
+  color: #969696;
+}
+
+@media (max-width: 700px) {
+  .container .content {
+    width: 80%;
+  }
+  .container .content #logo {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .container .content #illustration {
+    -webkit-transform: scale(0.65);
+            transform: scale(0.65);
+    margin-top: 25px;
+  }
+  .container .content h1 {
+    font-size: 22px;
+  }
+  .container .content .header-text {
+    font-size: 11px;
+    margin-bottom: 30px;
+  }
+  .container .content .form-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .content .form-content input {
+    margin-right: 0;
+    width: 95%;
+    margin-bottom: 8px;
+  }
+  .container .content .form-content button {
+    width: 95%;
+    height: 40px;
+  }
+  .container .content .form-content small {
+    max-width: 1000px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
